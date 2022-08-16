@@ -1,0 +1,264 @@
+/** first section **/
+#sec1 {
+    position: relative;
+}
+
+.title_img {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/about_us/sb01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.title_txt {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
+}
+
+.title_txt>h1 {
+    display: block;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.68;
+    letter-spacing: 1.08px;
+}
+
+.title_txt>p {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.57;
+}
+
+
+/** second section **/
+#sec2 {
+    padding-top: 110px;
+    padding-bottom: 240px;
+}
+
+.inner {
+    max-width: 1264px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.sub_title {
+    margin-bottom: 77px;
+    text-align: center;
+    position: relative;
+}
+
+h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 21px;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.59;
+    letter-spacing: 3.4px;
+    color: #000;
+}
+
+h2::before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #101010;
+    transform: translateX(-50%);
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 51px;
+    position: relative;
+}
+
+h3 {
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+    line-height: 1.46;
+    color: #00305b;
+    font-weight: bold;
+}
+
+h3::before {
+    width: 100%;
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    height: 1px;
+    background-color: #00305b;
+    transform: translateX(-50%);
+}
+
+.imgArea {
+    position: relative;
+    width: 100%;
+}
+
+.imgArea>.img2 {
+    margin-top: -127.5px;
+    padding: 0 68px;
+    box-sizing: border-box;
+}
+
+.text_wrap {
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 642px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #000;
+}
+
+h4 {
+    display: block;
+    font-family: 'Poppins';
+    font-size: 40px;
+    line-height: 1.5;
+    color: #cecece;
+    font-weight: bold;
+}
+
+.text_wrap>p {
+    margin-top: 30px;
+}
+
+.icon_wrap {
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 1008px;
+}
+
+.icon_wrap>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_wrap li {
+    padding: 20px 30px;
+    text-align: center;
+    width: 33.333%;
+    font-size: 16px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.icon_img {
+    position: relative;
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    background-color: #f5f5f5;
+    border-radius: 100%;
+}
+
+.icon_img::before {
+    position: absolute;
+    content: '';
+    display: block;
+    left: -4px;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    background-image: url(../img/about_us/bd_about01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.icon_wrap li:nth-child(2) .icon_img:before {
+    background-image: url(../img/about_us/bd_about02.png);
+}
+
+.icon_wrap li:nth-child(3) .icon_img:before {
+    background-image: url(../img/about_us/bd_about03.png);
+}
+
+.icon_img>img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 40px;
+    max-height: 100%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.icon_wrap p {
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #000;
+}
+
+.table_wrap {
+    margin: 0 auto;
+    margin-top: 120px;
+    max-width: 1008px;
+}
+
+.table {
+    position: relative;
+    border-top: 2px solid #2a2a2a;
+}
+
+.col2 {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+}
+
+.table_title {
+    width: 50%;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.table_title>p {
+    width: 110px;
+    border-right: 1px solid #dcdcdc;
+    height: 100%;
+    font-weight: 500;
+    background-color: #f5f5f5;
+    padding: 8px 20px;
+    letter-spacing: -0.8px;
+    box-sizing: border-box;
+    line-height: 22px;
+    min-height: 62px;
+    display: flex;
+    align-items: center;
+}
+
+.table_title>div {
+    height: 100%;
+    padding: 8px 20px;
+    letter-spacing: -0.8px;
+    box-sizing: border-box;
+    line-height: 22px;
+    min-height: 62px;
+    display: flex;
+    align-items: center;
+}

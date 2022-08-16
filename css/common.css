@@ -1,0 +1,168 @@
+/** header **/
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: #fff;
+}
+
+#header_top {
+    display: flex;
+    justify-content: space-between;
+    width: 1520px;
+    margin: auto;
+    align-items: center;
+}
+
+h1 img {
+    height: 35px;
+}
+
+.logo_ps>ul {
+    display: flex;
+}
+
+.logo_ps>ul>li {
+    margin: 0 15px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav a {
+    display: flex;
+    padding: 0 30px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #000;
+}
+
+.btn_nav {
+    padding-left: 120px;
+}
+
+.btn_nav>a {
+    display: block;
+    width: 21px;
+    height: 21px;
+    text-align: right;
+    font-size: 0;
+}
+
+.btn_nav span {
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 6px;
+    background-color: #000;
+    transition: width 0.5s;
+}
+
+.btn_nav span:last-child {
+    width: 60%;
+}
+
+.btn_nav>a:hover span:first-child {
+    width: 60%;
+}
+
+.btn_nav>a:hover span:last-child {
+    width: 100%;
+}
+
+
+/** footer **/
+.footer_wrap {
+    background-color: #000;
+    color: #fff;    
+    padding: 60px 0;
+    font-weight: 500;
+    
+}
+
+.footer_inner {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1520px;
+    margin: auto;
+}
+
+h5 {
+    width: 192px;
+}
+
+h5>a {
+    display: block;
+}
+
+h5 img {
+    width: 100%;
+}
+
+.footer_inner>ul {
+    padding-left: 50px;
+    margin-right: 200px;
+}
+
+.footer_inner>ul>li {
+    font-size: 14px;
+    line-height: 20px;
+    color: #707070;
+}
+
+.footer_inner span {
+    display: inline-block;
+}
+
+.bot_menu {
+    width: 340px;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;   
+}
+
+.bot_menu>ul {
+    display: flex;
+    justify-content: end;
+}
+
+.bot_menu a {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 20px;
+    color: #707070;
+    position: relative;
+}
+
+.bot_menu a>p {
+    font-size: 15px;
+    color: green;
+}
+
+.bot_menu>p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #707070;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width : 1640px) {
+    
+}
+
+@media only screen and (max-width : 1520px) {
+    #header_top {
+        width: 100%;
+    }
+
+    .footer_inne {
+        width: 100%;
+    }
+}
